@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project.Entity.Models
 {
-    public class CategoryTags:BaseEntity
+    public class CategoryTag:BaseEntity
     {
         public int? CategoryId { get; set; }
         public int? TagId { get; set; }

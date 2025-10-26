@@ -12,7 +12,7 @@ namespace Project.Entity.Models
         public string Title { get; set; }
 
         //Relational Properties
-        public List<CategoryTags> CategoryTag { get; set; }
+        public List<CategoryTag> CategoryTag { get; set; }
 
     }
 }

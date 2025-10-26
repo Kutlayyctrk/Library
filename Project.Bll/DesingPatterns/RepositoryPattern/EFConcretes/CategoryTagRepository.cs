@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Project.Bll.DesingPatterns.RepositoryPattern.EFConcretes
 {
-    public class CategoryTagsRepository:BaseRepository<CategoryTags>
+    public class CategoryTagRepository:BaseRepository<CategoryTag>
     {
     }
 }

@@ -25,14 +25,14 @@ namespace Project.DAL.ContextClasses
             modelBuilder.Configurations.Add(new AuthorConfiguration());
             modelBuilder.Configurations.Add(new CategoryConfiguration());
             modelBuilder.Configurations.Add(new TagConfiguration());
-            modelBuilder.Configurations.Add(new CategoryTagsConfiguration());
+            modelBuilder.Configurations.Add(new CategoryTagConfiguration());
             modelBuilder.Configurations.Add(new ShelfConfiguration());
         }
 
         public DbSet<Author> Authors { get; set; }
         public DbSet<Book> Books { get; set; }
         public DbSet<Category> Categories { get; set; }
-        public DbSet<CategoryTags> CategoryTags { get; set; }
+        public DbSet<CategoryTag> CategoryTags { get; set; }
         public DbSet<Shelf> Shelves { get; set; }
         public DbSet<Room> Rooms { get; set; }
         public DbSet<Tag> Tags { get; set; }

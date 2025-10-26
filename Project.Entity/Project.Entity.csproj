@@ -56,7 +56,7 @@
     <Compile Include="Models\BaseEntity.cs" />
     <Compile Include="Models\Book.cs" />
     <Compile Include="Models\Category.cs" />
-    <Compile Include="Models\CategoryTags.cs" />
+    <Compile Include="Models\CategoryTag.cs" />
     <Compile Include="Models\Room.cs" />
     <Compile Include="Models\Shelf.cs" />
     <Compile Include="Models\Tag.cs" />

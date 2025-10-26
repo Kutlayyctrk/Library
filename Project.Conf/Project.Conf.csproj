@@ -55,7 +55,7 @@
     <Compile Include="Options\BaseConfiguration.cs" />
     <Compile Include="Options\BookConfiguration.cs" />
     <Compile Include="Options\CategoryConfiguration.cs" />
-    <Compile Include="Options\CategoryTagsConfiguration.cs" />
+    <Compile Include="Options\CategoryTagConfiguration.cs" />
     <Compile Include="Options\RoomConfiguration.cs" />
     <Compile Include="Options\ShelfConfiguration.cs" />
     <Compile Include="Options\TagConfiguration.cs" />

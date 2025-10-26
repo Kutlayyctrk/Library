@@ -55,7 +55,7 @@
     <Compile Include="DesingPatterns\RepositoryPattern\EFConcretes\AuthorRepository.cs" />
     <Compile Include="DesingPatterns\RepositoryPattern\EFConcretes\BookRepository.cs" />
     <Compile Include="DesingPatterns\RepositoryPattern\EFConcretes\CategoryRepository.cs" />
-    <Compile Include="DesingPatterns\RepositoryPattern\EFConcretes\CategoryTagsRepository.cs" />
+    <Compile Include="DesingPatterns\RepositoryPattern\EFConcretes\CategoryTagRepository.cs" />
     <Compile Include="DesingPatterns\RepositoryPattern\EFConcretes\RoomRepository.cs" />
     <Compile Include="DesingPatterns\RepositoryPattern\EFConcretes\ShelfRepository.cs" />
     <Compile Include="DesingPatterns\RepositoryPattern\EFConcretes\TagRepository.cs" />

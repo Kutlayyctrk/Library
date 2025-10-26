@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace Project.Conf.Options
 {
-    public class CategoryTagsConfiguration : BaseConfiguration<CategoryTags>
+    public class CategoryTagConfiguration : BaseConfiguration<CategoryTag>
     {
-        public CategoryTagsConfiguration()
+        public CategoryTagConfiguration()
         {
             Ignore(x => x.Id).HasKey(x => new
             {

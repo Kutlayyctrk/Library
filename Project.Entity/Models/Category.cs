@@ -13,7 +13,7 @@ namespace Project.Entity.Models
 
         //Relational Properties
         public List<Book> Books { get; set; }
-        public List<CategoryTags> CategoryTag { get; set; }
+        public List<CategoryTag> CategoryTag { get; set; }
 
     }
 }
